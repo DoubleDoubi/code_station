@@ -2,21 +2,24 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>主页</title>
-
+<title></title>
 <link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="homePage-resources/css/homePage.css" rel="stylesheet">
 
-<script type="text/javascript" src="homePage-resources/js/homePage.js"></script>
-<script type="text/javascript" src="../resources/jquery.js"></script>
-<script type="text/javascript" src="../resources/bootstrap/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.starter-template {
+  padding: 15px 15px;
+  text-align: center;
+}
+</style>
 
 </head>
-
 <body>
 	<div id="homePage_top">
 		<div class="container">
-	
 	      <!-- 上部菜单栏 -->
 	      <nav class="navbar navbar-default" role="navigation">
 	        <div class="container-fluid">
@@ -60,43 +63,27 @@
 	          </div><!--/.nav-collapse -->
 	        </div><!--/.container-fluid -->
 	      </nav>
-	
-	      <!-- 上部图文区 -->
-	      <div class="jumbotron">
-	        <h1>Personal Page</h1>
-	        <p>This example is a quick exercise . It includes the responsive CSS and HTML</p>
-	        <p>Author：杨昌迪</p>
-	        <p>
-	          <a class="btn btn-lg btn-primary" href="../errorPage/notOpenPage.html" role="button">View details &raquo;</a>
-	        </p>
-	      </div>
 	    </div> <!-- /container -->
 	</div><!-- homePage_top -->
-
-	<div class="container" id="homePage_middle">
-		<div class="row" style="text-align: center;">
-            <div class="col-md-4">
-	          <h2>Exercise Code</h2>
-	          <p>There's something code write during study.</p>
-	          <p><a class="btn btn-default" href="" role="button">View details &raquo;</a></p>
-	        </div>
-            <div class="col-md-4">
-	          <h2>weibo</h2>
-	          <p>There's nothing here.</p>
-	          <p><a class="btn btn-default" href="" role="button">View details &raquo;</a></p>
-	        </div>
-            <div class="col-md-4">
-	          <h2>Cloud notes</h2>
-			  <p>There's nothing here.</p>
-			  <p><a class="btn btn-default" href="../CloudNote/cloudNotePage.html" role="button">View details &raquo;</a></p>
-	        </div>
+	
+	<div class="homePage_mid">
+	  <div class="container">
+        <div class="">
+          <!-- 横版导航栏，如果要切换竖版 添加  nav-stacked -->
+          <ul class="nav nav-tabs" role="tablist">
+		    <li role="presentation" class="active"><a href="">Home</a></li>
+		    <li role="presentation"><a href="">Profile</a></li>
+		    <li role="presentation"><a href="">Messages</a></li>
+		  </ul>
         </div>
-        <footer style="text-align: center;">
-        	<p>&copy; The website is made by Yang Changdi</p>
-      	</footer>
-	</div>
-	<div id="homePage_bottom">
-		
-	</div>
+        
+        <div class="">
+          <div class="">
+            <h1>test</h1>
+          </div>
+        </div>
+        
+      </div>
+    </div>
 </body>
 </html>
